@@ -1,6 +1,6 @@
 <?php
-define('DB_USER','root');
-define('DB_DATABASE','movie');
-define('DB_PASSWORD','');
-define('DB_SERVER','localhost');
+define('DB_USER','sql10198024');
+define('DB_DATABASE','sql10198024');
+define('DB_PASSWORD','ZvwXShFred');
+define('DB_SERVER','sql10.freesqldatabase.com');
 ?>
