@@ -2,7 +2,7 @@
 include_once '../connect/db_connect.php';
 $db=new DB_Connect();
 $conn=$db->connect();
-$domain="https://github.com/cuongnd273/server_movie"
+$domain="github.com/cuongnd273/server_movie/blob/master/images/"
 $result=mysqli_query($conn,"select * from phim,giave where maphim='$_GET[maphim]' and phim.loaive=giave.magia");
 if($result){
 	$row=mysqli_fetch_array($result);
