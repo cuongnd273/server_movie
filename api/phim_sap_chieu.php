@@ -11,7 +11,7 @@ if($result){
 		$item['maphim']=$row['maphim'];
 		$item['tenphim']=$row['tenphim'];
 		$item['ngaybatdau']=$row['ngaybatdau'];
-		$item['anh']=$domain.$row['anh'];
+		$item['anh']="http://".$domain.$row['anh'];
 		array_push($phim,$item);
 	}
 	echo json_encode($phim);
