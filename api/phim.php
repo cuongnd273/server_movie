@@ -15,7 +15,7 @@ if($result){
 	$item['daodien']=$row['daodien'];
 	$item['dienvien']=$row['dienvien'];
 	$item['thoiluong']=$row['thoiluong'];
-	$item['anh']="http://".$domain.'/movie/images/'.$row['anh'];
+	$item['anh']=$domain.$row['anh'];
 	$item['tomtat']=$row['tomtat'];
 	echo json_encode($item);
 }
