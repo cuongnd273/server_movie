@@ -2,7 +2,7 @@
 include_once '../connect/db_connect.php';
 $db=new DB_Connect();
 $conn=$db->connect();
-$domain=$_SERVER['HTTP_HOST'];
+$domain="https://github.com/cuongnd273/server_movie";
 $result=mysqli_query($conn,"select * from phim where ngaybatdau <= NOW() and ngayketthuc >= NOW() and isDelete=false");
 if($result){
 	$phim=array();
