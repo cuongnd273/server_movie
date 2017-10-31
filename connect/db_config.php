@@ -1,6 +1,6 @@
 <?php
-define('DB_USER','sql3200766');
-define('DB_DATABASE','sql3200766');
-define('DB_PASSWORD','NMDyvFEQpB');
+define('DB_USER','sql12202197');
+define('DB_DATABASE','sql12202197');
+define('DB_PASSWORD','TCzDuYxlJa');
 define('DB_SERVER','sql3.freesqldatabase.com');
 ?>
